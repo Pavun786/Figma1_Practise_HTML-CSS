@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    /* height: 100%; */
+    margin: 10px;
+    /* background-color: coral; */
+}
+
+.box1{
+    width: 15%;
+    border: 1px solid black;
+    background-color: aqua;
+    height: 140vh;
+}
+
+.box2{
+    width: 65%;
+    border: 1px solid black;
+    height: 140vh;
+    /* background-color: blueviolet; */
+}
+
+.box3{
+    width: 20%;
+    border: 1px solid black;
+    height: 140vh;
+    /* background-color: blanchedalmond; */
+}
+
+.sbox1{
+    border: 1px solid black;
+    height: 8vh;
+    width: 90%;
+    margin: 10px;
+    display: flex;
+  
+    
+}
+.fa-user{
+    /* margin: 18px; */
+    margin-top: 18px;
+    margin-left: 27px;
+}
+.profileName{
+    margin-top: 16px;
+    margin-left: 10px;
+    
+}
+.head{
+    display: flex;
+    justify-content:space-around;
+}
+
+ul,li {
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
+.p{
+    margin-left: 36px;
+    margin-top: 30px;
+}
+.fa-globe , .fa-dumpster,.fa-tarp,.fa-book-open{
+    margin-right: 8px;
+}
+
+.fa-address-book,.fa-receipt,.fa-users-line,.fa-book,.fa-comments{
+    margin-right: 8px;
+}
+
+.sbox5{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+
+.sub1{
+    width:32% ;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+}
+
+.sub2{
+    width:45% ;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+}
+
+.sub3{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.sub4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    border: 1px solid black;
+    height: 10vh;
+    width: 18%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(179, 133, 221);
+}
+.cardHead{
+    margin: 10px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#myProgress {
+    width: 20%;
+    background-color: grey;
+    height: 6px;
+  }
+
+#myBar {
+    width: 20%;
+    height: 6px;
+    background-color: green;
+  }
+  .flexbox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+  }
+  .hbar{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+  }
+
+.sbox7{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 20px;
+}  
+
+.linechart{
+    width:100%;
+    height: 30%;
+    
+}
+
+.barchart{
+    width:100%;
+    height: 30%;
+}
+
+.piechart{
+    width: 120%;
+    height: 30%;
+}
+
+.noti{
+    display: flex;
+    margin: 10px;
+   
+    /* justify-content:space-around; */
+}
+.time{
+    margin-left: 10px;
+}
+.fa-bug{
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 10px;
+}
+.fa-user-large,.fa-paypal{
+    background-color:rgb(158, 50, 158);
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 22px;
+    margin: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    
+}

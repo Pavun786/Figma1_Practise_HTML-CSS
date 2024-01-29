@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6bcab8db89.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     -->
+     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+     <script src="https://www.gstatic.com/charts/loader.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+     <!-- <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script> -->
+     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="box1">
+        <div class="sbox1">
+           
+            <i class="fas fa-user"></i>
+            <h3 class="profileName">ByeWind</h3>
+        </div>    
+        <div class="sbox2">
+            <div class="head">
+                <div>Favorites</div>
+                <div>Recently</div>
+            </div>
+            <div>
+                <ul>
+                    <li>Overview</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            
+        </div>   
+        <div class="sbox3">
+            <p class="p">Dashboard</p>
+            <ul>
+                <li><i class="fa-solid fa-globe"></i>Overview</li>
+                <li><i class="fa-solid fa-dumpster"></i>eCommerce</li>
+                <li><i class="fa-solid fa-tarp"></i>Projects</li>
+                <li><i class="fa-solid fa-book-open"></i>Online Courses</li>
+            </ul>
+        </div> 
+        <div class="sbox4"></div> 
+         <p class="p">Pages</p>
+         <ul>
+            <li><i class="fa-solid fa-address-book"></i>User Profile</li>
+            <li><i class="fa-solid fa-receipt"></i>Accounts</li>
+            <li><i class="fa-solid fa-users-line"></i>Comorate</li>
+            <li><i class="fa-solid fa-book"></i>Blog</li>
+            <li><i class="fa-solid fa-comments"></i>Social</li>
+         </ul>
+        </div>
+        <div class="box2">
+
+        <div class="sbox5">
+         <div class="sub1">
+            <span><i class="fa-solid fa-folder"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span>Dashboards</span>
+            <span>/</span>
+            <span>Default</span>
+         </div>
+         <div class="sub2">
+         <span><input type="text" placeholder="Search"></span> 
+         <span><i class="fa-regular fa-sun"></i></span>
+         <span><i class="fa-solid fa-clock-rotate-left"></i></span>
+         <span><i class="fa-solid fa-bell"></i></span>
+         <span><i class="fa-solid fa-folder"></i></span>
+         </div>
+        </div>
+        <div class="sbox6">
+         <div class="sub3">
+            <h4>Overview</h4>
+            <h4>Today<i class="fa-solid fa-chevron-down"></i></h4>
+         </div>
+          <div class="sub4">
+            <div class="card">
+                <p class="cardHead">Views</p>
+                <div class="details">
+                    <h2>7,265</h2>
+                   <sub> <span>+11.02%</span>
+                    <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                </sub>
+                </div>
+            </div>
+            <div class="card">
+                <p class="cardHead">Visits</p>
+                <div class="details">
+                    <h2>3,671</h2>
+                   <sub> <span>-0.03%</span>
+                    <span><i class="fa-solid fa-arrow-trend-down"></i></span>
+                </sub>
+                </div>
+            </div>
+            <div class="card">
+                <p class="cardHead">New Users</p>
+                <div class="details">
+                    <h2>156</h2>
+                   <sub> <span>+15.03%</span>
+                    <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                </sub>
+                </div>
+            </div>
+            <div class="card"><p class="cardHead">Active Users</p>
+                <div class="details">
+                    <h2>2,318</h2>
+                   <sub> <span>+6.08%</span>
+                    <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                </sub>
+                </div></div>
+          </div>
+        </div>
+        <div class="sbox7">
+            <div class="linechart">
+            <div id="myChart" ></div>
+        </div>
+            <div class="hbar">
+                <h2>Traffic by Website</h2>
+                <div class="flexbox">
+                <h4>Google</h4>
+
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+                </div>
+                <div class="flexbox">
+                    <h4>YouTube</h4>
+                    <div id="myProgress">
+                        <div id="myBar"></div>
+                      </div>
+                    </div>
+                    <div class="flexbox">
+                <h4>Instagram</h4>
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+                </div>
+                <div class="flexbox">
+                    <h4>Facebook</h4>
+                    <div id="myProgress">
+                        <div id="myBar"></div>
+                      </div>
+                    </div>
+                    <div class="flexbox">
+                        <h4>Twitter</h4>
+                        <div id="myProgress">
+                            <div id="myBar"></div>
+                          </div>
+                        </div>
+            </div>
+            <!-- <div id="container" style="width: 100%; height: 100%"></div> -->
+            <div class="barchart">
+            <div id="myPlot" style="width:100%;height:350px"></div>
+        </div>
+
+        <div class="piechart">
+
+            <div id="mypie" style="width:100%; max-width:600px; height:500px;"></div>
+        </div>
+
+        </div>
+
+           
+        </div>
+       
+        <div class="box3">
+            <div>
+                <h3>Notifications</h3>
+                <div class="noti">
+                    <i class="fa-solid fa-bug"></i>
+                    <div class="time">
+                        <h4>You fixed a bug</h4>
+                        <p>Just now</p>
+                    </div>
+                </div>
+                <div class="noti">
+                    <i class="fa-solid fa-user-large"></i>
+                    <div class="time" >
+                        <h4>New User registerd</h4>
+                        <p>59 minutes ago</p>
+                    </div>
+                </div>
+                <div class="noti">
+                    <i class="fa-solid fa-bug"></i>
+                    <div class="time">
+                        <h4>You fixed a bug</h4>
+                        <p>12 hours ago</p>
+                    </div>
+                </div>
+                <div class="noti">
+                    <i class="fa-brands fa-paypal"></i>
+                    <div class="time" >
+                        <h4>AndiLane Subscribed to you </h4>
+                        <p>one month ago</p>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div>
+                <h3>contacts</h3>
+                <div class="contact">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpWrFBdpUngOEZNdajN_d9-PIAR_LCStUSA&usqp=CAU" alt="">
+                    
+                        <h4>MS Dhoni</h4>
+                        
+                    </div>
+                
+                <div class="contact">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7MU5hdnXGvOJp5W8jfGb3HRtS69S0hwazw&usqp=CAU" alt="">
+                    
+                        <h4>S Raina</h4>
+                        
+                    </div>
+                    <div class="contact">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToml_LrROKmmpRFyY8lYy1wk3Wr1f8f3-ngA&usqp=CAU" alt="">
+                        
+                            <h4>R Jadeja</h4>
+                            
+                        </div>
+                        <div class="contact">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgDujVo1xtXO8s9Q2-l3_bIETH_u-BeWUVnw&usqp=CAU" alt="">
+                            
+                                <h4>DJ Bravo</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+               
+        
+        </div>
+       
+        
+       
+        </div>
+        
+    </div>
+    
+    <script src="./script.js">
+       
+        </script>
+       
+            
+        
+</body>
+</html>
